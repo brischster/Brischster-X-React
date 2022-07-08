@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --bitorange: rgb(247, 147, 26);
+  --bitgrey: rgb(77, 77, 78);
+}
+body {
+  /* display: flex;
+  flex-direction: column; */
+  line-height: 1.3;
+  font-family: "Vollkorn SC", serif;
+}
+
+h1 {
+  color: var(--bitorange);
+  font-style: bolder;
+}
+
+#bit-logo {
+  color: var(--bitorange);
+}
+
+.header {
+  width: 100%;
+  background-color: var(--bitgrey);
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--bitorange);
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.background-image {
+  position: relative;
+  text-align: center;
+}
+
+.slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: var(--bitorange);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: stretch; */
+  justify-content: space-around;
+}
+
+h3 {
+  flex: 0 0 10%;
+  text-align: right;
+  padding-right: 20px;
+  color: rgb(247, 147, 26);
+  border-right: 5px solid var(--bitgrey);
+}
+
+.selfie {
+  border-radius: 30px 30px 30px 30px; /*More Oval shape */
+  padding-right: 5px;
+}
+
+.background-image,
+.about-container,
+.project-container {
+  flex: 0 0 87%;
+}
+
+.about-container {
+  display: flex;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.project-image {
+  /* max-width: 50%;
+  max-height: 50%; */
+  /* object-fit: contain; */
+  width: 100%;
+  min-width: 400px;
+}
+
+.content {
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-container:first-child {
+  flex-basis: 100%;
+  min-height: 400px;
+}
+
+.image-card {
+  flex-basis: calc(50%-1em);
+  padding: 10px;
+  text-align: center;
+  border: 2px solid var(--bitgrey);
+}
+
+.ima .project-title {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: flex-end;
+}
+
+.contactinfo {
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 15px;
+  font-size: 20px;
+  background-color: var(--bitgrey);
+  border: 3px solid var(--bitgrey);
+}
+
+.contactinfo > a {
+  color: rgb(255, 255, 255);
+}
