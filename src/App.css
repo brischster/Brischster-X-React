@@ -86,7 +86,8 @@ h3 {
 
 .background-image,
 .about-container,
-.project-container {
+.project-container,
+.contactinfo {
   flex: 0 0 87%;
 }
 
@@ -138,14 +139,30 @@ p {
 }
 
 .contactinfo {
-  justify-content: space-around;
+  /* width: 100%; */
+  background-color: var(--bitgrey);
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 2px solid var(--bitorange); */
+}
+
+.contactinfo > a {
+  list-style: none;
+  /* display: flex; */
+
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+}
+
+/* justify-content: space-around;
   align-content: center;
   padding-top: 15px;
   font-size: 20px;
   background-color: var(--bitgrey);
-  border: 3px solid var(--bitgrey);
-}
-
-.contactinfo > a {
-  color: rgb(255, 255, 255);
-}
+  border: 3px solid var(--bitgrey); */

@@ -1,11 +1,12 @@
 import "../../App.css";
+import banner from "../../Assets/187161.webp";
 
 function Jumbotron() {
   return (
     <>
       <div className="background-image">
         <img
-          src="./assets/images/187161.webp"
+          src={banner}
           alt="greenbtc"
           style={{ width: "100%" }}
           height={150}

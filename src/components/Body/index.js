@@ -1,4 +1,9 @@
 import selfie from "../../Assets/selfie.jpg";
+import impervious from "../../Assets/impervious_400x400.jpeg";
+import mining from "../../Assets/cryptocurrency-6560735_640.png";
+import tree from "../../Assets/ashtree.jpeg";
+import network from "../../Assets/lightningNetwork.jpeg";
+import compost from "../../Assets/compost.jpeg";
 
 function BodyCard() {
   return (
@@ -36,7 +41,7 @@ function BodyCard() {
         <div className="project-container">
           <figure className="image-card">
             <img
-              src="./assets/images/impervious_400x400.jpeg"
+              src={impervious}
               alt="Impervious Logo"
               className="project-image"
             />
@@ -50,11 +55,7 @@ function BodyCard() {
           {/* Section 3 */}
           {/* <div class="project-card"> */}
           <figure className="image-card">
-            <img
-              src="./assets/images/cryptocurrency-6560735_640.png"
-              alt="Bitcoin Mining"
-              className="project-image"
-            />
+            <img src={mining} alt="Bitcoin Mining" className="project-image" />
             <figcaption className="project-title">
               <a href="https://www.nasdaq.com/articles/how-bitcoin-mining-strengthens-electricity-grids">
                 Bitcoin Mining Benefits to Electricity Grid
@@ -65,7 +66,11 @@ function BodyCard() {
           {/* Section 3 */}
           {/* <div class="project-card"> */}
           <figure className="image-card">
-            <img src="./" alt="Composting Guide" className="project-image" />
+            <img
+              src={compost}
+              alt="Composting Guide"
+              className="project-image"
+            />
             <figcaption className="project-title">
               <a href="https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Compost#section-2">
                 Accepted Items for City of Denver's Composting Program
@@ -77,7 +82,7 @@ function BodyCard() {
           {/* <div class="project-card"> */}
           <figure className="image-card">
             <img
-              src="./assets/images/ashtree.jpeg"
+              src={tree}
               alt="Be a Smart Ash Tree Request"
               className="project-image"
             />
@@ -92,7 +97,7 @@ function BodyCard() {
           {/* <div class="project-card"> */}
           <figure className="image-card">
             <img
-              src="./assets/images/lightning-network-second-layer-payment-protocol-operates-top-blockchain-bitcoin-cryptocurrency-internet-payment-155201456.jpeg"
+              src={network}
               alt="Merchants Using Lightning Network for Payments"
               className="project-image"
             />

@@ -1,4 +1,4 @@
-import "./style.css";
+// import "./style.css";
 
 function NavBar() {
   return (
@@ -6,22 +6,23 @@ function NavBar() {
       <h1>
         Ryan{" "}
         <span id="bit-logo">
-          <span>&#x20BF;</span>
+          <span>₿</span>
         </span>
         risch
       </h1>
+      {/* Navigation Bar */}
       <nav>
-        <ul className="navbarLinks">
-          <li className="navItem">
+        <ul className="navbar-links">
+          <li className="nav-item">
             <a href="#about"> About Me</a>
           </li>
-          <li className="navItem">
+          <li className="nav-item">
             <a href="#work">Work</a>
           </li>
-          <li className="navItem">
+          <li className="nav-item">
             <a href="#contact">Contact Me</a>
           </li>
-          <li className="navItem">
+          <li className="nav-item">
             <a href="Resume">Resume</a>
           </li>
         </ul>
