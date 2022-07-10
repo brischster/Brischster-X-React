@@ -2,7 +2,7 @@
 
 This is your portfolio, this is your portfolio on REACT!!
 
-# <ins>Mongo-Backend-for-Social-Media</ins>
+# <ins>Brischster-X-React</ins>
 
 ## <ins>Table of Contents</ins>
 
@@ -17,17 +17,19 @@ This is your portfolio, this is your portfolio on REACT!!
 
 ### <ins>Description</ins>
 
-With mongodb and mongoose easily make sure that you are always and fully tracking all your users thoughts, friends and reactions. This will provide for easier manipulation and advertising! Oh joy!
+That is was my portfolio with just HTML & CSS, this is my portfolio on REACT!!
+
+Took my not so great porfolio and refactored it into single page React app. I was able to use React Routes website and teach myself how to use routes, so the nav bar and main image appear static, but clicking through the different routes provides a very quick and smooth experience for the user.
 
 ### <ins>How to Install</ins>
 
 1. Clone Github repository and install necessary frameworks
 
-[Live Link to Portfolio]()
+[Live Link to Portfolio](https://brischsterreactportfolio.herokuapp.com/resume)
 
 ### <ins>How to Use/Screenshot </ins>
 
-![Screen Shot]()
+![Screen Shot](./src/Assets/screenshot_deployed.png)
 
 ### <ins>How to Contribute </ins>
 
